@@ -1,0 +1,68 @@
+body {
+    padding: 50px;
+    text-align:center;
+    background-color:white;
+    color:black;
+    border:10px solid orange;
+}
+
+.rotating-icon {
+    display: inline-block;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes twist-up {
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+.allButtons{
+	padding:10px;
+	background-color: orange;
+	color:black;
+	border:none;
+}
+
+button:hover{
+    background-color:brown;
+    color: white;
+    transition:0.2s;
+}
+
+.setButton{
+	margin-left:5px;
+}
+
+.titleText{
+    color:black;
+    background-color:orange;
+    height:100%;
+    weight:100%;
+}
+
+button{
+    cursor:pointer;
+}
+
+.announcement{
+    color:red;
+}
+
+input{
+    padding:9px;
+}
+
+.existButton{
+    margin-left:3px;
+}
+
+.Info{
+    overflow-wrap: break-word;
+}
